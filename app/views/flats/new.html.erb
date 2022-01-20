@@ -1,0 +1,16 @@
+<%= form_for(@flat) do |item| %>
+  <%= item.label :name %>
+  <%= item.text_area :name %>
+
+  <%= item.label :address %>
+  <%= item.text_area :address %>
+
+
+  <%= item.label :description %>
+  <%= item.text_area :description %>
+
+  <%= item.submit %>
+<% end %>
+
+
+<%# :name, :address, :description, :price_per_night, :number_of_guests %>
